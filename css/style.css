@@ -133,17 +133,18 @@ img {
 
 /* order-service */
 .order-service {
-    background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
         ),
-        url(/images/people-office.png);
+        url(/images/people-office.jpg);
     background-repeat: no-repeat;
     max-width: 1440px;
     margin: 0 auto;
+    background-position: center;
+    background-size: cover;
 }
 .order-service-title {
     font-weight: 700;
@@ -398,6 +399,7 @@ footer {
 }
 .footer-wrapper {
     display: flex;
+    align-items: start;
 }
 footer a {
     font-family: "Raleway", sans-serif;
